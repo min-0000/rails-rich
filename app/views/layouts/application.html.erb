@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>App</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+  <body>
+  <header>
+  </header>
+  <body>
+    <div class="menu fixed-left">
+      <div class="menu-container">
+        <div class="user-profile">
+          <div class="user-profile-center">
+            <div class="user-icon create-account"> <img src=""></div>
+            <div class="user-info no-account">No Account</div>
+            <div class="create-account"> 
+            <button type="button">アカウントを作成する</button>
+            </div>
+          </div>
+        </div>
+        <div class="category">
+          <div class="category-title">カテゴリー</div>
+        </div>
+        <div class="category-betsu">
+          <div class="category-betsu-title">
+            <%= link_to '教員採用試験', '/'%>
+            <%= link_to '企画特集', '/'%>
+            <%= link_to '注目トピックス', '/'%>
+            <%= link_to '小学校', '/'%>
+            <%= link_to '中学校', '/'%>
+            <%= link_to '高校', '/'%>
+            <%= link_to '特別支援', '/'%>
+          </div>
+        </div>
+      </div>
+    </div>
+ 
+  </div>
+
+    <%= yield %>
+    
+  </div>
+
+  <div class="footer">
+      <div class="links">
+        <%= link_to '利用規約', '/'%>
+        <%= link_to 'コンテンツの利用について', '/'%>
+        <%= link_to '個人情報保護方針', '/'%>
+        <%= link_to '広告掲載', '/'%>
+      </div>
+  </div>
+    
+  </body>
+</html>

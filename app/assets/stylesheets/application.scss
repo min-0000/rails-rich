@@ -1,0 +1,150 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ body{
+    padding:0;
+    margin:0;
+}
+
+header{
+    font-size: 14px;
+    color: #222;
+    line-height: 1.42857143;
+    box-sizing: border-box;
+    position: fixed;
+    height: 50px;
+    background: #222;
+    top: 0; 
+    right: 0;
+    left: 0;
+    z-index: 1999;
+    width: auto;
+    min-width: 1024px;
+    margin: auto;
+    box-shadow: 0 0 2px #666,0 0 8px #222;
+}
+
+
+
+.fixed-left {
+    position: fixed;
+    top: 50px;
+    bottom: 0;
+    width: 192px;
+}
+.menu {
+    background-color: #FFF;
+    -moz-box-shadow: 0 0 2px #EAEAEA;
+    -webkit-box-shadow: 0 0 2px #EAEAEA;
+    box-shadow: 0 0 2px #EAEAEA;
+    z-index: 1000;
+    transition: all .1s linear;
+}
+
+.menu-container {
+    width: 100%;
+    height: 100%;
+}
+
+.user-profile {
+    padding-top: 24px;
+    border-bottom: solid 1px #EAEAEA;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+.user-profile .user-profile-center{
+    padding-bottom: 9px;
+}
+
+.user-profile .create-account {
+    text-align: center;
+    cursor: pointer;
+}
+.user-profile .user-icon {
+    width: 48px;
+    height: 48px;
+    margin: auto;
+}
+
+.user-profile .user-info.no-account {
+    margin: 8px 0;
+    font-size: 12px;
+    color: #999;
+    line-height: 1;
+}
+.user-profile .user-info {
+    width: 100%;
+    text-align: center;
+}
+
+.user-profile .create-account {
+    text-align: center;
+    cursor: pointer;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+.category {
+    height: 43px;
+    border-bottom: solid 1px #EAEAEA;
+}
+
+.category-title {
+    text-align: left;
+    padding: 14px 0 0 16px;
+    font-size: 12px;
+    color: #999;
+}
+
+.category-betsu{
+    position: absolute;
+    overflow-y: auto;
+    top: 200px;
+    transition: top 1000ms 0s ease;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.category-betsu-title a{
+    border-bottom: solid 1px #EAEAEA;
+    margin: 0 16px;
+    display: block;
+    cursor: pointer;
+    padding: 20px 0 20px 40px;
+    color: #666;
+    transition: all .15s linear;
+}
+
+.footer {
+    border-top: 1px solid #D9D9D9;
+    display: table;
+    padding-top:30px;
+    width: 100%;
+    padding-left:250px;
+    bottom: 0; /*下に固定*/
+}
+
+.links a{
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 24px;
+    color: #999;
+    font-size: 86%;
+    margin-right: 11px;
+}

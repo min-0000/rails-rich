@@ -1,0 +1,241 @@
+// Place all the styles related to the my_page controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+body{
+    margin:0;
+    background: #EFEFEF;
+}
+
+.header{
+    font-size: 14px;
+    color: #222;
+    line-height: 1.42857143;
+    box-sizing: border-box;
+    position: fixed;
+    height: 50px;
+    background: #222;
+    top: 0; 
+    right: 0;
+    left: 0;
+    z-index: 1999;
+    width: auto;
+    min-width: 1024px;
+    margin: auto;
+    box-shadow: 0 0 2px #666,0 0 8px #222;
+}
+
+.myprofile{
+    border-bottom: solid 1px #EAEAEA;
+    margin-bottom:60px;
+}
+
+.mypage {
+    position: relative;
+    width: 796px;
+    margin: auto;
+    background-color: #FFF;
+}
+
+
+.white-box {
+   
+    background-color: #FFF;
+}
+
+.use-profile {
+    padding-top:40px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-bottom:30px;
+    margin: auto;
+    position: relative;
+}
+
+.use-profile .detail {
+    display: block;
+}
+
+.use-profile .detail .photo {
+    float: left;
+}
+
+.use-profile .detail .photo img {
+    width: 80px;
+    height: 80px;
+}
+img {
+    vertical-align: middle;
+    outline: 0;
+}
+
+.mypage .use-profile .labels {
+    position: relative;
+}
+.use-profile .detail .labels {
+    margin-left: 120px;
+    font-size: 12px;
+}
+
+.use-profile .detail .labels .profile {
+    font-size: 14px;
+    word-break: break-all;
+    word-break: break-word;
+}
+.use-profile .profile {
+    margin-top: 10px;
+    max-height: 40px;
+    overflow: hidden;
+}
+
+.use-profile .detail .labels .username {
+    height: 30px;
+}
+
+.job {
+    white-space: nowrap;
+    overflow: hidden;
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    color: #999;
+}
+
+.all-page{
+    background-color:white;
+}
+
+.like-page{
+    width:700px;
+    float:left;
+    padding-left:50px;
+
+}
+
+
+
+.cardtype
+.sidelong {
+  margin-bottom: 1em;
+}
+.cardtype__article {
+  position: relative;
+  width: 40%;
+  margin: 10px;
+  border-radius: 2px;
+  background: #fff;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.12), 0 2px 3px 0 rgba(0, 0, 0, 0.22);
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  float: left;
+}
+.cardtype__article:hover {
+  box-shadow: 0 15px 30px -5px rgba(0, 0, 0, 0.15), 0 0 5px rgba(0, 0, 0, 0.1);
+  transform: translateY(-4px);
+}
+.cardtype__link {
+  display: block;
+  color: #555;
+  text-decoration: none;
+  cursor: pointer;
+}
+.cardtype__link:hover {
+  color: #555;
+  text-decoration: none;
+}
+.cardtype__img {
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+  height: 0;
+  padding-bottom: 57.7%;
+}
+.cardtype__img img {
+  border-radius: 2px 2px 0 0;
+  width: 100%;
+}
+
+.cardtype h2 {
+  margin: 8px 13px 0;
+  font-size: 10px;
+}
+.cardtype time {
+  display: block;
+  margin: 13px 13px 8px;
+  color: #b5b5b5;
+  font-size: 13px;
+  font-weight: bold;
+}
+.cat-name {
+  display: inline-block;
+  overflow: hidden;
+  position: absolute;
+  top: 13px;
+  left: 13px;
+  height: 22px;
+  margin: 0;
+  padding: 0 10px;
+  border-radius: 14px;
+  color: #fff;
+  font-size: 11px;
+  font-weight: bold;
+  vertical-align: middle;
+  line-height: 22px;
+}
+.cat-name:hover {
+  text-decoration: none;
+  background: silver;
+}
+.newmark {
+  display: inline-block;
+  position: absolute;
+  top: 13px;
+  right: 10px;
+  width: 37px;
+  height: 37px;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 37px;
+  transform-origin: 50% 50%;
+  animation: animScale 3.5s ease-out;
+}
+
+.white-square{
+    background-color:white;
+    float:left;
+    width:400px;
+    padding-top:20px;
+    padding-bottom:20px;
+    border-radius:30px;
+}
+
+.white-squarebox h3{
+    padding-left:150px;
+
+}
+
+.shidouanbox{
+    border-bottom: solid 1px #EAEAEA;
+}
+
+.shidouanbox a{
+    border-bottom: solid 1px #EAEAEA;
+    color: #999;
+}
+
+.shidouan{
+    padding:5px 40px;
+}
+
+.shidouan img{
+    width:80px;
+    height:80px;
+}
+
+.shidouansyousai {
+    float:right;
+    padding-right:150px;
+}
